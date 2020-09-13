@@ -12,7 +12,8 @@ Password: 123<br>
 
 ![alt text](https://github.com/ivanovm2020/cherryparser/blob/master/src/main/resources/static/cherryparser.png?raw=true)<br>
 
-The application uses the following components:<br>
+The application uses the following<br>
+frameworks and components:<br>
 
 Spring Boot JPA Hibernate<br>
 Spring Boot MVC<br>
