@@ -1,31 +1,25 @@
 # cherryparser
 
-A simple web application that scraping data 
-from the website and saving it to the database.
+A simple web application that scraping data from<br> 
+the website and saving it to the database.
 
 
-<a href="http://ec2-54-93-229-8.eu-central-1.compute.amazonaws.com">Click here to sign in</a>
+<a href="http://ec2-54-93-229-8.eu-central-1.compute.amazonaws.com">Sign it to cherryparser</a>
 
 
-User name: user
-Password: 123
+User name: user<br>
+Password: 123<br>
 
-<br />
+![alt text](https://github.com/ivanovm2020/cherryparser/blob/master/src/main/resources/static/cherryparser.png?raw=true)<br>
 
-![alt text](https://github.com/ivanovm2020/cherryparser/blob/master/src/main/resources/static/cherryparser.png?raw=true)
+The application uses the following components:<br>
 
-<br />
+Spring Boot JPA Hibernate<br>
+Spring Boot MVC<br>
+Spring Security<br>
+FreeMarker<br>
+Bootstrap<br>
+jsoup<br>
 
-
-The application uses the following components:
-
-Spring Boot JPA Hibernate
-Spring Boot MVC
-Spring Security
-FreeMarker 
-Bootstrap
-jsoup
-
-
-Application running on Amazon EC2 Ubuntu instance 
+Application running on Amazon EC2 Ubuntu instance<br> 
 with Amazon RDS PostgreSQL database.
