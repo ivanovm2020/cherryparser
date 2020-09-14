@@ -10,7 +10,28 @@
                             </#list>
                      </select>
                      <input type="hidden" name="_csrf" value="${_csrf.token}" />
-                     <button type="submit"  class="btn btn-primary ml-2">Start parsing</button>
+<#--                 <button type="submit"  class="btn btn-primary ml-2">Start parsing</button>-->
+                     <!-- Button trigger modal -->
+                     <button id="modalActivate" type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPreview">
+                            Start parsing
+                     </button>
+                     <!-- Modal -->
+                     <div class="modal fade right" id="modalPreview" tabindex="-1" role="dialog" aria-labelledby="modalPreviewLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-sm" role="document">
+                                   <div class="modal-content">
+                                          <div class="modal-header">
+                                                 <h5 class="modal-title" id="modalPreviewLabel">Sorry, can't parse</h5>
+                                          </div>
+                                          <div class="modal-body">
+                                                  Your request is blocked by pleer.ru
+                                          </div>
+                                          <div class="modal-footer">
+                                                 <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                          </div>
+                                   </div>
+                            </div>
+                     </div>
+                     <!-- Modal -->
               </form>
        </div>
 
